@@ -2,7 +2,7 @@ name: assignees-sample
 
 on:
   pull_request:
-    types: opened
+    types: [opened]
 
 jobs:
   assignees:
