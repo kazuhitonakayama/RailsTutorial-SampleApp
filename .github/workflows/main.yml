@@ -3,6 +3,7 @@ name: assignees-sample
 on:
   pull_request:
     branches: [ master ]
+    types: opened # プルリクを作成したタイミングだけで動かす
 
 jobs:
   assignees:
